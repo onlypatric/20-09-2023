@@ -41,7 +41,7 @@ public class Main
   } 
 
   /**
-   * metodo per popolare il vettore con numeri casuali utilizzando Math.random() arrotondato a int
+   * metodo per popolare il vettore con un range di numeri casuali utilizzando Math.random() arrotondato a int
    * 
    * @version v1.0.0
    */
@@ -62,7 +62,7 @@ public class Main
     {
       for(int i=0; i<DIM; i++)
       {
-        System.out.println("Nella cella "+i+" il valore presente e': "+valori[i]);
+        System.out.println("valori[index:"+i+"] ---> "+valori[i]);
       }
     }
 
